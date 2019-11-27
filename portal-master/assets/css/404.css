@@ -1,0 +1,45 @@
+@font-face{
+    font-family: font-1;
+    src: url("../fonts/GothamRoundedLight_21020.ttf")
+  }
+
+body{
+    background-image: url("/assets/img/bg-02.jpg");
+    background-image: url("/assets/img/overlay.png"), url("/assets/img/bg-02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: font-1;
+}
+
+h1{
+    color: white;
+    display: inline;
+    font-size: 48px;
+}
+a{
+    text-decoration: none;
+    color: #d41872;
+}
+
+.container{
+    margin: auto;
+    margin-top: 35vh;
+    text-align: center;
+    width: 60vw;
+}
+
+.e-paragraph{
+    margin-top: 35px;
+    line-height: 48px;
+    font-size:32px;
+    color: #aaa;
+}
+
+#n4{
+    color: #d41872;
+    font-size: 46px;
+}
+
+#n0{
+    font-size: 38px;
+}
